@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vagrant Project</title>
+    <style>
+      body {background-color:lightgrey}
+      h1 {color:#7A991A}
+	  h2 {colour:green}
+      p {color:black}
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+      a:link, a:visited {
+        display: block;
+        width: 120px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #98bf21;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase;
+      } 
+
+      a:hover, a:active {
+        background-color: #7A991A;
+      }	  
+    </style>
+  </head>
+  <body>
+    <img src="http://intranet/corp/images/intranet.gif">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>  
+    <h1 style="text-align:center">My First Vagrant Project</h1>
+    <%= yield %>
+  </body>
+</html>
+
